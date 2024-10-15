@@ -1,0 +1,165 @@
+(base) ➜  data python main.py --batch-size=32 --patience=5 --log-dir=./logs/exp
+2024-10-15 21:55:18.309238: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-15 21:55:19.005066: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+{'data_dir': './dataset/', 'num_epochs': 100, 'batch_size': 32, 'class_num': 6, 'weights_loc': None, 'lr': 0.01, 'net_name': 'efficientnet-b0', 'resume_epoch': 0, 'momentum': 0.9, 'log_dir': './logs/exp', 'patience': 5}
+----------
+Epoch 0/99
+----------
+Training Loss: 0.3787 Acc: 0.8728
+Validation Loss: 0.2008 Acc: 0.9326
+Saving model and best weights at epoch 0
+Epoch 1/99
+----------
+Training Loss: 0.2025 Acc: 0.9280
+Validation Loss: 0.2151 Acc: 0.9290
+EarlyStopping counter: 1 out of 5
+Epoch 2/99
+----------
+Training Loss: 0.1554 Acc: 0.9461
+Validation Loss: 0.1655 Acc: 0.9426
+Saving model and best weights at epoch 2
+Epoch 3/99
+----------
+Training Loss: 0.1180 Acc: 0.9556
+Validation Loss: 0.1724 Acc: 0.9440
+Saving model and best weights at epoch 3
+Epoch 4/99
+----------
+Training Loss: 0.0948 Acc: 0.9641
+Validation Loss: 0.1794 Acc: 0.9426
+EarlyStopping counter: 1 out of 5
+Epoch 5/99
+----------
+Training Loss: 0.0793 Acc: 0.9736
+Validation Loss: 0.1786 Acc: 0.9394
+EarlyStopping counter: 2 out of 5
+Epoch 6/99
+----------
+Training Loss: 0.0630 Acc: 0.9784
+Validation Loss: 0.1761 Acc: 0.9451
+Saving model and best weights at epoch 6
+Epoch 7/99
+----------
+Training Loss: 0.0568 Acc: 0.9808
+Validation Loss: 0.2102 Acc: 0.9394
+EarlyStopping counter: 1 out of 5
+Epoch 8/99
+----------
+Training Loss: 0.0459 Acc: 0.9841
+Validation Loss: 0.2127 Acc: 0.9404
+EarlyStopping counter: 2 out of 5
+Epoch 9/99
+----------
+Training Loss: 0.0449 Acc: 0.9846
+Validation Loss: 0.2147 Acc: 0.9440
+EarlyStopping counter: 3 out of 5
+Epoch 10/99
+----------
+Training Loss: 0.0329 Acc: 0.9897
+Validation Loss: 0.2253 Acc: 0.9404
+EarlyStopping counter: 4 out of 5
+Epoch 11/99
+----------
+Training Loss: 0.0368 Acc: 0.9885
+Validation Loss: 0.2375 Acc: 0.9383
+EarlyStopping counter: 5 out of 5
+Learning rate is set to 0.001
+Epoch 12/99
+----------
+Training Loss: 0.0281 Acc: 0.9911
+Validation Loss: 0.2037 Acc: 0.9497
+Saving model and best weights at epoch 12
+Epoch 13/99
+----------
+Training Loss: 0.0205 Acc: 0.9938
+Validation Loss: 0.2002 Acc: 0.9494
+EarlyStopping counter: 1 out of 5
+Epoch 14/99
+----------
+Training Loss: 0.0165 Acc: 0.9950
+Validation Loss: 0.1998 Acc: 0.9508
+Saving model and best weights at epoch 14
+Epoch 15/99
+----------
+Training Loss: 0.0154 Acc: 0.9955
+Validation Loss: 0.2024 Acc: 0.9479
+EarlyStopping counter: 1 out of 5
+Epoch 16/99
+----------
+Training Loss: 0.0154 Acc: 0.9963
+Validation Loss: 0.2028 Acc: 0.9479
+EarlyStopping counter: 2 out of 5
+Epoch 17/99
+----------
+Training Loss: 0.0137 Acc: 0.9960
+Validation Loss: 0.2023 Acc: 0.9501
+EarlyStopping counter: 3 out of 5
+Epoch 18/99
+----------
+Training Loss: 0.0133 Acc: 0.9963
+Validation Loss: 0.2040 Acc: 0.9479
+EarlyStopping counter: 4 out of 5
+Epoch 19/99
+----------
+Training Loss: 0.0135 Acc: 0.9962
+Validation Loss: 0.2042 Acc: 0.9486
+EarlyStopping counter: 5 out of 5
+Learning rate is set to 0.0001
+Epoch 20/99
+----------
+Training Loss: 0.0136 Acc: 0.9967
+Validation Loss: 0.2040 Acc: 0.9490
+EarlyStopping counter: 1 out of 5
+Epoch 21/99
+----------
+Training Loss: 0.0130 Acc: 0.9967
+Validation Loss: 0.2037 Acc: 0.9483
+EarlyStopping counter: 2 out of 5
+Epoch 22/99
+----------
+Training Loss: 0.0123 Acc: 0.9970
+Validation Loss: 0.2035 Acc: 0.9479
+EarlyStopping counter: 3 out of 5
+Epoch 23/99
+----------
+Training Loss: 0.0116 Acc: 0.9966
+Validation Loss: 0.2035 Acc: 0.9486
+EarlyStopping counter: 4 out of 5
+Epoch 24/99
+----------
+Training Loss: 0.0107 Acc: 0.9974
+Validation Loss: 0.2029 Acc: 0.9479
+EarlyStopping counter: 5 out of 5
+Learning rate is set to 1e-05
+Epoch 25/99
+----------
+Training Loss: 0.0123 Acc: 0.9968
+Validation Loss: 0.2028 Acc: 0.9486
+EarlyStopping counter: 1 out of 5
+Epoch 26/99
+----------
+Training Loss: 0.0111 Acc: 0.9975
+Validation Loss: 0.2037 Acc: 0.9483
+EarlyStopping counter: 2 out of 5
+Epoch 27/99
+----------
+Training Loss: 0.0116 Acc: 0.9965
+Validation Loss: 0.2038 Acc: 0.9483
+EarlyStopping counter: 3 out of 5
+Epoch 28/99
+----------
+Training Loss: 0.0125 Acc: 0.9970
+Validation Loss: 0.2027 Acc: 0.9479
+EarlyStopping counter: 4 out of 5
+Epoch 29/99
+----------
+Training Loss: 0.0105 Acc: 0.9976
+Validation Loss: 0.2042 Acc: 0.9479
+EarlyStopping counter: 5 out of 5
+Learning rate is set to 1.0000000000000002e-06
+Early stopping
+Training complete in 19m 6s
+----------
+Test Accuracy:
+Final Test Loss: 0.2412 Acc: 0.9380
